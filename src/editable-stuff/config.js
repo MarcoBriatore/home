@@ -6,30 +6,30 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Marco",
   middleName: "",
-  lastName: "Shoaib",
+  lastName: "Briatore",
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/marcobriatore",
     },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
-    },
+    // {
+    //   image: "fa-facebook",
+    //   url: "https://www.facebook.com/hashirshoaeb",
+    // },
+    // {
+    //   image: "fa-instagram",
+    //   url: "https://www.instagram.com/emibriatore/",
+    // },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/marco-emilio-briatore/",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.twitter.com/briatoremarco/",
     },
   ],
 };
@@ -54,8 +54,8 @@ const about = {
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Marco Briatore. I graduated in 2018 from the Universidad Tecnologica Nacional de Mar del Plata with a degree in Programming. What I am most passionate about is learning new things and my goal is to pursue this passion within the field of software engineering. In my free time I like to work on video game projects.",
+  resume: "https://drive.google.com/file/d/1autoDH26rMiKBnMWhmLyXCxKRTQR8pLA/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -66,8 +66,8 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  gitHubUsername: "marcobriatore", //i.e."johnDoe12Gh"
+  reposLength: 3,
   specificRepos: [],
 };
 
@@ -100,30 +100,30 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Angular2+", value: 100 },
+    { name: "Typescript", value: 100 },
+    { name: "Data Structures", value: 100 },
+    { name: "Express.js", value: 100 },
+    { name: "JavaScript", value: 100 },
+    { name: "React", value: 100 },
+    { name: "HTML/CSS", value: 100 },
+    { name: "Docker", value: 100 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Goal-Oriented", value: 100 },
+    { name: "Collaboration", value: 100 },
+    { name: "Positivity", value: 100 },
+    { name: "Adaptability", value: 100 },
+    { name: "Problem Solving", value: 100 },
+    { name: "Empathy", value: 100 },
+    { name: "Organization", value: 100 },
+    { name: "Creativity", value: 100 },
   ],
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
-  show: true,
+  show: false,
   heading: "Get In Touch",
   message:
     "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
@@ -131,18 +131,18 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
       role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      companylogo: "2",
+      date: 'Nov 2019 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Junior Developer',
+      companylogo: "1",
+      date: 'Mar 2019 – Aug 2019',
     },
   ]
 }
